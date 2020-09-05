@@ -58,5 +58,11 @@ end
 end
 
 
-def current_player
-end
+def current_player(board)
+  if board % 2 == 0
+    return "X"
+  elsif board % 2 != 0
+    return "O"
+  else
+    end
+  end
